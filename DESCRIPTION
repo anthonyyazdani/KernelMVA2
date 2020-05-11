@@ -1,0 +1,24 @@
+Package: KernelMVA
+Title: Kernel density estimation
+Version: 0.0.2.0000
+Authors@R: 
+    person(given = "Anthony",
+           family = "Yazdani 15.317.878 - MSc. Statistics - GSEM - UNIGE",
+           role = c("aut", "cre"),
+           email = "anthony.yazdani@etu.unige.ch",
+           comment = c(ORCID = ""))
+Description: Kernel density estimation up to two dimentional PDF and CDF with a Gaussian kernel. This package allows to estimate not only classical PDF and CDF but also copulas PDF and CDF.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
+Imports: 
+    copula,
+    pracma,
+    stats,
+    plotly
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
